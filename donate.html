@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to Rural Telemedical Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            min-width: 600px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+            background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
+        }
+        
+        .info-section {
+            flex: 1;
+            padding: 30px;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .info-section h2 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+        
+        .info-section p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+        
+        .form-section {
+            flex: 1;
+            padding: 30px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-section h2 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        
+        .form-section form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-section label {
+            font-size: 14px;
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        .form-section input,
+        .form-section select,
+        .form-section textarea {
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .form-section button {
+            padding: 15px;
+            background-color: #ff6f61;
+            border: none;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .form-section button:hover {
+            background-color: #e55b50;
+        }
+        
+        .form-section button img {
+            margin-left: 10px;
+            width: 20px;
+            height: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="form-section">
+            <h2>Let's Get in Touch</h2>
+            <form action="#" method="POST">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Full Name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email Address" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone Number" required>
+
+                <label for="organization">Amount</label>
+                <input type="text" id="organization" name="organization" placeholder="Enter Organization Name" required>
+
+
+                <button type="submit">Submit<img src="submit-arrow-icon.png" alt="arrow icon"></button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
